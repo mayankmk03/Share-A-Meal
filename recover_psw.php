@@ -54,7 +54,7 @@
 
 <div class="splash-container">
         <div class="card ">
-            <div class="card-header text-center"><a href="index.html"><img class="logo-img" src="assets/images/logo.png" alt="logo"></a><span class="splash-description">Please enter your user information.</span></div>
+            <div class="card-header text-center"><a href="dashboard.php"><img class="logo-img" src="assets/images/logo.png" alt="logo"></a><span class="splash-description">Please enter your user information.</span></div>
             <div class="card-body">
                 <form method="POST" action="recover_psw.php">
                     <div class="form-group">
@@ -66,7 +66,7 @@
             </div>
             <div class="card-footer bg-white p-0  ">
             <div class="card-footer-item card-footer-item-bordered">
-                    <a href="http://localhost/Mini-Project/login.php" class="footer-link">Sign-in</a></div>
+                    <a href="http://localhost/food_donation_portal/login.php" class="footer-link">Sign-in</a></div>
                 </div>
             </div>
         </div>
@@ -131,7 +131,7 @@
             $mail->Body="<b>Dear User</b>
             <h3>We received a request to reset your password.</h3>
             <p>Kindly click the below link to reset your password</p>
-            http://localhost/Mini-Project/reset_psw.php
+            http://localhost/food_donation_portal/reset_psw.php
             <br><br>
             <p>With regrads,</p>
             <b>Mayank Kulkarni</b>";

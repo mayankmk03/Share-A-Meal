@@ -33,7 +33,7 @@
     <div class="dashboard-main-wrapper">
       <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">Food Donation Services</a>
+                <a class="navbar-brand" href="dashboard.php">Food Donation Services</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,9 +51,9 @@
                                     <h5 class="mb-0 text-white nav-user-name">Mayank Kulkarni </h5>
                                     <span class="status"></span><span class="ml-2">User</span>
                                 </div>
-                                <a class="dropdown-item" href="http://localhost/Mini-Project/profile.php"><i class="fas fa-user mr-2"></i>Account</a>
+                                <a class="dropdown-item" href="http://localhost/food_donation_portal/profile.php"><i class="fas fa-user mr-2"></i>Account</a>
                                 <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
-                                <a class="dropdown-item" href="http://localhost/Mini-Project/login.php"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                                <a class="dropdown-item" href="http://localhost/food_donation_portal/login.php"><i class="fas fa-power-off mr-2"></i>Logout</a>
                             </div>
                         </li>
                     </ul>
@@ -71,16 +71,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav flex-column">
                             <li class="nav-divider">
-                                <a href="index.html"><img class="logo-img" src="assets/images/logo.png" alt="logo"></a>
+                                <a href="dashboard.php"><img class="logo-img" src="assets/images/logo.png" alt="logo"></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="http://localhost/Mini-Project/dashboard.php"><i class="fa fa-fw fa-tachometer-alt"></i>Dashboard <span class="badge badge-success">6</span></a>
+                                <a class="nav-link" href="http://localhost/food_donation_portal/dashboard.php"><i class="fa fa-fw fa-tachometer-alt"></i>Dashboard <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="donationform.php"><i class="fa fa-fw fa-hand-holding-heart"></i>Donation <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="http://localhost/Mini-Project/viewform.php" style="background-color: rgb(241, 185, 14);"><i class="fa fa-fw fa-users"></i>View Donation  <span class="badge badge-success">6</span></a>
+                                <a class="nav-link" href="http://localhost/food_donation_portal/viewform.php" style="background-color: rgb(241, 185, 14);"><i class="fa fa-fw fa-users"></i>View Donation  <span class="badge badge-success">6</span></a>
                             </li>
 
                             <li class="nav-item ">
