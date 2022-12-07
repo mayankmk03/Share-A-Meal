@@ -5,7 +5,7 @@
 
     function validEmail()
         {  if (isset($_POST) && count($_POST)>1) {
-            if (filter_var($_POST[' ail'], FILTER_VALIDATE_EMAIL)) {
+            if (filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)) {
                 $GLOBALS['emailValid'] = true;
             } else {
                 echo "<p>Email Error:</p>Email is Invalid<br>";
